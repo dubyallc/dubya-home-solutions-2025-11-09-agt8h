@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dubya Home Solutions Blog - Expert insights on Lowcountry home maintenance, care, and solutions. Professional advice from experienced home care specialists.">
+    <meta name="keywords" content="home maintenance, lowcountry homes, home care tips, seasonal maintenance, home solutions">
+    <meta name="author" content="Dubya Home Solutions">
+    <title>Blog | Dubya Home Solutions | Expert Lowcountry Home Care</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-primary {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FF7A7F 100%);
+        }
+        
+        .gradient-dark {
+            background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 100%);
+        }
+        
+        .btn-primary {
+            background-color: #FF5A5F;
+            transition: all 300ms ease-out;
+        }
+        
+        .btn-primary:hover {
+            background-color: #E64A4F;
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(255, 90, 95, 0.3);
+        }
+        
+        .btn-secondary {
+            background-color: #FFD166;
+            color: #1A1A1A;
+            transition: all 300ms ease-out;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #FFC843;
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(255, 209, 102, 0.3);
+        }
+        
+        .card-hover {
+            transition: all 300ms ease-out;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 25px 50px -12px rgba(255, 90, 95, 0.2);
+        }
+        
+        .feature-icon {
+            color: #FF5A5F;
+        }
+        
+        .accent-text {
+            color: #FFD166;
+        }
+        
+        .faq-icon {
+            transition: transform 300ms ease-out;
+        }
+        
+        .faq-answer {
+            transition: all 300ms ease-out;
+            max-height: 500px;
+            overflow: hidden;
+        }
+        
+        .faq-answer.hidden {
+            max-height: 0;
+            opacity: 0;
+        }
+        
+        .star-rating {
+            color: #FFD166;
+        }
+        
+        .section-divider {
+            background: linear-gradient(90deg, transparent, #FF5A5F, transparent);
+            height: 2px;
+        }
+        
+        .overlay-gradient {
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.85) 0%, rgba(45, 45, 45, 0.85) 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="https://dubyallc.github.io/dubya-home-solutions-2025-11-09-agt8h" class="flex items-center space-x-2">
+                    <div class="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">D</span>
+                    </div>
+                    <span class="text-2xl font-bold text-white hidden sm:inline">Dubya</span>
+                </a>
+                
+                <!-- Back Link -->
+                <a href="https://dubyallc.github.io/dubya-home-solutions-2025-11-09-agt8h" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">
+                    ← Back
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Header Section -->
+    <section class="relative py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden">
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-10 left-10 w-72 h-72 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse"></div>
+            <div class="absolute bottom-10 right-10 w-72 h-72 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse" style="animation-delay: 2s;"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
+                <span class="block text-white">Our</span>
+                <span class="block gradient-primary bg-clip-text text-transparent">Blog</span>
+            </h1>
+            
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 font-medium leading-relaxed max-w-3xl mx-auto">
+                Expert Insights for Lowcountry Homeowners
+            </p>
+            
+            <p class="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
+                Discover expert tips, maintenance guides, and industry insights to help you protect and enhance your Lowcountry home. From seasonal maintenance to advanced solutions, our blog provides the knowledge you need to make informed decisions about your property.
+            </p>
+        </div>
+    </section>
+
+    <!-- Blog Purpose Section -->
+    <section class="py-16 bg-gray-800 bg-opacity-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-xl gradient-primary flex items-center justify-center mb-4 mx-auto shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C6.5 6.253 2 10.998 2 17s4.5 10.747 10 10.747c5.5 0 10-4.998 10-10.747S17.5 6.253 12 6.253z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Maintenance Tips</h3>
+                    <p class="text-gray-300">Seasonal guides and expert advice to keep your home in perfect condition year-round.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-xl gradient-primary flex items-center justify-center mb-4 mx-auto shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5a4 4 0 100-8 4 4 0 000 8z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Lowcountry Living</h3>
+                    <p class="text-gray-300">Specific solutions for humidity, salt air, and climate challenges unique to our region.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-xl gradient-primary flex items-center justify-center mb-4 mx-auto shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Industry Insights</h3>
+                    <p class="text-gray-300">Latest trends, technologies, and best practices in home solutions and craftsmanship.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post -->
+    <section class="py-24 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-8">
+                    Latest <span class="gradient-primary bg-clip-text text-transparent">Article</span>
+                </h2>
+            </div>
+            
+            <div class="card-hover bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-red-500 shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-0">
+                    <!-- Featured Image -->
+                    <div class="lg:col-span-1 h-64 lg:h-auto bg-gradient-to-br from-gray-700 to-gray-900 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80'); opacity: 0.6;"></div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-gray-900 via-transparent to-transparent"></div>
+                    </div>
+                    
+                    <!-- Content -->
+                    <div class="lg:col-span-2 p-8 md:p-12 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center space-x-4 mb-4">
+                                <span class="inline-block bg-red-600 bg-opacity-20 text-red-400 px-4 py-1 rounded-full text-sm font-semibold">Featured</span>
+                                <span class="text-sm text-gray-400">
+                                    <i class="far fa-calendar mr-2"></i>November 9, 2025
+                                </span>
+                            </div>
+                            
+                            <h3 class="text-3xl md:text-4xl font-bold mb-6 leading-tight text-white">
+                                Mastering Lowcountry Home Maintenance: The Ultimate Guide to Protecting Your Investment
+                            </h3>
+                            
+                            <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                                Lowcountry homeowners face unique maintenance challenges from high humidity, salt air, and extreme weather. This comprehensive guide reveals essential strategies for protecting your investment through seasonal maintenance routines covering spring cleaning to winter preparations. Learn about humidity control, water damage prevention, exterior protection, HVAC maintenance, and professional inspections. Discover the importance of proper drainage systems, regular roof inspections, and plumbing checks to prevent costly damage. Create a detailed maintenance plan with documentation and budget 1-2% of your home's value annually to ensure long-term protection and preserve your property's structure, systems, and value.
+                            </p>
+                            
+                            <div class="flex flex-wrap gap-3 mb-8">
+                                <span class="inline-block bg-gray-700 text-gray-200 px-4 py-2 rounded-lg text-sm">#HomeMaintenance</span>
+                                <span class="inline-block bg-gray-700 text-gray-200 px-4 py-2 rounded-lg text-sm">#LowcountryLiving</span>
+                                <span class="inline-block bg-gray-700 text-gray-200 px-4 py-2 rounded-lg text-sm">#HomeProtection</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <a href="https://dubyallc.github.io/dubya-home-solutions-2025-11-09-agt8h/blog/mastering-lowcountry-home-maintenance-the-ultimate.html" class="btn-primary text-white px-8 py-3 rounded-lg font-bold inline-flex items-center">
+                                Read Full Article
+                                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coming Soon Section -->
+    <section class="py-24 bg-gray-800 bg-opacity-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+                    More Articles <span class="gradient-primary bg-clip-text text-transparent">Coming Soon</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    We're regularly publishing new content on home maintenance, Lowcountry living, and expert home solutions. Check back soon for more valuable insights.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Placeholder 1 -->
+                <div class="card-hover bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-red-500 text-center">
+                    <div class="w-16 h-16 rounded-xl bg-gray-700 flex items-center justify-center mb-6 mx-auto">
+                        <svg class="w-8 h-8 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-400">New Article</h3>
+                    <p class="text-gray-400">
+                        More expert insights and maintenance guides are being prepared for you.
+                    </p>
+                </div>
+                
+                <!-- Placeholder 2 -->
+                <div class="card-hover bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-red-500 text-center">
+                    <div class="w-16 h-16 rounded-xl bg-gray-700 flex items-center justify-center mb-6 mx-auto">
+                        <svg class="w-8 h-8 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-400">Coming Soon</h3>
+                    <p class="text-gray-400">
+                        Subscribe to our newsletter to be notified of new articles and updates.
+                    </p>
+                </div>
+                
+                <!-- Placeholder 3 -->
+                <div class="card-hover bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-red-500 text-center">
+                    <div class="w-16 h-16 rounded-xl bg-gray-700 flex items-center justify-center mb-6 mx-auto">
+                        <svg class="w-8 h-8 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-400">Stay Tuned</h3>
+                    <p class="text-gray-400">
+                        Check back regularly for fresh content and expert recommendations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter CTA Section -->
+    <section class="relative py-24 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80'); opacity: 0.3;"></div>
+        <div class="absolute inset-0 overlay-gradient"></div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+                Stay Updated
+            </h2>
+            <p class="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto leading-relaxed">
+                Get expert home maintenance tips and insights delivered to your inbox. Subscribe to our newsletter for the latest articles and exclusive content.
+            </p>
+            <a href="https://dubyallc.github.io/dubya-home-solutions-2025-11-09-agt8h" class="btn-primary text-white px-12 py-5 rounded-lg font-bold text-xl shadow-2xl inline-block">
+                Back to Home
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 border-t border-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">D</span>
+                        </div>
+                        <span class="text-xl font-bold text-white">Dubya</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Elevating Lowcountry homes with expert care, reliable service, and local expertise.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 hover:bg-red-600 flex items-center justify-center transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 hover:bg-red-600 flex items-center justify-center transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 hover:bg-red-600 flex items-center justify-center transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 hover:bg-red-600 flex items-center justify-center transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://dubyallc.github.io/dubya-home-solutions-2025-11-09-agt8h#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="https://dubyallc.github.io/dubya-home-solutions-2025-11-09-agt8h#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="https://dubyallc.github.io/dubya-home-solutions-2025-11-09-agt8h#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="https://dubyallc.github.io/dubya-home-solutions-2025-11-09-agt8h#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="https://dubyallc.github.io/dubya-home-solutions-2025-11-09-agt8h#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Home Solutions</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Expert Craftsmanship</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Reliable Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Local Expertise</a></li>
+                        <li><a href="https://dubyaseamlesssystems.com/get-estimate" class="text-gray-400 hover:text-white transition-colors duration-300">Get Estimate</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact & Legal -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Contact & Legal</h4>
+                    <ul class="space-y-3 mb-6">
+                        <li>
+                            <a href="mailto:info@dubyallc.com" class="text-gray-400 hover:text-white transition-colors duration-300 flex items-center">
+                                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                info@dubyallc.com
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="border-t border-gray-800 pt-4">
+                        <p class="text-sm text-gray-500 mb-3">Legal</p>
+                        <ul class="space-y-2">
+                            <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Privacy Policy</a></li>
+                            <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Terms of Service</a></li>
+                            <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <p class="text-gray-500 text-sm mb-4 md:mb-0">
+                        &copy; 2025 Dubya Home Solutions. All rights reserved.
+                    </p>
+                    <p class="text-gray-500 text-sm">
+                        Elevating Lowcountry Homes with Expert Care
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
